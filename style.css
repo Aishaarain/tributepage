@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+border: #333;
+border-color: black;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: #d4e2ee;
+letter-spacing: 0.5px;
+}
+
+
+a{
+    text-decoration: none;
+    color:azure;
+}
+header{
+    background-color: rgb(25, 32, 32);
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    margin: 0;
+    font-size: 26px;
+}
+#image{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 100%;
+    border: 5px solid #333;
+    margin-top: 30px;
+    
+    
+}
+
+.bio{padding-top: 10px;
+margin-top: 10px;
+margin: 50px 100px;
+text-align: justify;
+font-size: 19px;
+
+    
+}
+.more
+{
+    width: auto;
+    margin:5px 100px ;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    padding-bottom: 5%;
+}
+.link{
+    float: right;
+    margin:5px 100px ;
+    height: 150px;
+    border-radius: 20px;
+    width: 300px;
+   padding-top: 15%;
+   
+}
+.link a{
+    color: rgb(36, 36, 206);
+}
+.more.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    
+
+}
+.more.grid-container.grid-item{
+    overflow: hidden;
+    
+}
+.more.grid-container.grid-item img{
+    height: 150px;
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+
+footer{ 
+    background-color: #333;
+    color: azure;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;   
+}
+@media (max-width:1079px) {
+    .more.grid-container{
+        display: grid;
+grid-gap: 20px;    }
+    
+
+#bio{
+    margin: 50px 70px;
+    text-align: justify;
+}
+.more{margin: 50px 70px;}
+}
+@media(max-width:860px){
+    .more{
+
+    margin: 50px 50px;
+}}
+@media(max-width:600px){
+    #bio{
+        margin: 50px 25px;
+    }
+.more{
+    margin: 50px 25px;
+}
+more.grid-container{
+    grid-template-columns: auto;
+    grid-gap: 20px;
+}}
